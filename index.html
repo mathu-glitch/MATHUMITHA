@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <title>Portfolio</title>
+</head>
+<body>
+
+  <!-- Top Navigation -->
+  <div class="topnav">
+    <a href="javascript:void(0);" id="home-button">Home</a>
+    <a href="javascript:void(0);" id="about-link">About</a> <!-- Added About Tab -->
+    <a href="javascript:void(0);" id="education-link">Education</a>
+    <a href="javascript:void(0);" id="skills-link">Skills</a>
+    <a href="javascript:void(0);" id="certificate-link">Certificates</a>
+    <a href="javascript:void(0);" id="contact-link">Contact</a>
+  </div>
+
+  <!-- Home Section -->
+  <div class="home" id="home-section">
+    <h2>HELLO I'M</h2>
+  </div>
+  <div class="home2" id="name-section">
+    <h2>MATHUMITHA C.K</h2>
+  </div>
+
+  <div class="home-role" id="role-section">
+    <h2>FRONTEND DEVELOPER</h2>
+  </div>
+
+  <!-- Resume Button Below Portfolio Section -->
+  <div class="resume-section" id="resume-section">
+    <button class="resume-btn" onclick="window.open('path/to/resume.pdf', '_blank')">View Resume</button>
+  </div>
+  <div class="social-links">
+  <a href="https://www.linkedin.com/in/mathumitha-kalaimohan-6a0364295/" target="_blank">
+    <img src="linkedin.png" alt="LinkedIn" class="social-icon">
+  </a>
+  <a href="https://github.com/mathu-glitch" target="_blank">
+    <img src="github.jpg" alt="GitHub" class="social-icon">
+  </a>
+</div>
+
+  <div class="image-section">
+    <img src="colorful-illustration-female-programmer-working_23-2148277397-removebg-preview.png" alt="Programmer Illustration">
+    
+  </div>
+
+ <div class="about-section" id="about-section">
+    <h2>About Me</h2>
+    <p>
+      Hello! I’m <strong>Mathumitha C.K</strong>, an aspiring <strong>Frontend Developer</strong> currently pursuing a degree in 
+      <strong>Artificial Intelligence and Data Science</strong>. I specialize in <strong>HTML, CSS, and JavaScript</strong>, with a strong focus on designing and developing intuitive and user-friendly interfaces. 
+      My academic background equips me with a solid understanding of both technical concepts and problem-solving skills, which I apply effectively to my projects.
+    </p>
+    <p>
+      I am passionate about creating seamless digital experiences and have honed my abilities through coursework, personal projects, and constant exploration of emerging web technologies. 
+      Beyond technical skills, I am driven by a curiosity for <strong>AI-powered solutions</strong> and how they can be integrated into modern web applications to enhance user engagement and interactivity.
+    </p>
+    <p>
+      Committed to lifelong learning, I actively seek opportunities to deepen my knowledge of front-end frameworks and tools, ensuring I stay updated with industry trends. 
+      My goal is to contribute to innovative and impactful projects that combine creativity, technology, and functionality to solve real-world challenges.
+    </p>
+  </div>
+
+  <!-- Education Section -->
+  <div class="education-section" id="education-section">
+    <h2>Education Qualification</h2>
+    <div class="education-box">
+      <div class="education-card">
+        <h3>Undergraduate</h3>
+        <p>P.A College of Engineering and Technology, Pollachi</p>
+        <p>CGPA: 8.11</p>
+      </div>
+      <div class="education-card">
+        <h3>HSC</h3>
+        <p>Government Girls Higher Secondary School, Mecheri</p>
+      </div>
+      <div class="education-card">
+        <h3>SSLC</h3>
+        <p>MAM Hr Sec School, Mettur</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Skills Section -->
+  <div class="skills-section" id="skills-section">
+    <h2>Skills</h2>
+    <div class="skills-logos">
+      <div class="skill">
+        <img src="js.png" alt="JavaScript Logo">
+        <p>JavaScript</p>
+      </div>
+      <div class="skill">
+        <img src="css.png" alt="CSS Logo">
+        <p>CSS</p>
+      </div>
+      <div class="skill">
+        <img src="html.png" alt="HTML Logo">
+        <p>HTML</p>
+      </div>
+    </div>
+  </div>
+
+ <!-- Certificates Section -->
+<div class="certificate-section" id="certificate-section">
+  <h2>Certificates</h2>
+  <div class="certificate-list">
+    <!-- Certificate 1 -->
+    <div class="certificate-item">
+      <h3>Internship Certificate (Python)</h3>
+      <a href="path/to/internship_certificate_python.pdf" target="_blank">
+        View Certificate
+      </a>
+    </div>
+
+    <!-- Certificate 2 -->
+    <div class="certificate-item">
+      <h3>HTML, CSS Certificate</h3>
+      <a href="path/to/html_css_certificate.pdf" target="_blank">
+        View Certificate
+      </a>
+    </div>
+
+    <!-- Certificate 3 (Optional - Example) -->
+    <div class="certificate-item">
+      <h3>JavaScript Bootcamp Certificate</h3>
+      <a href="path/to/javascript_bootcamp_certificate.pdf" target="_blank">
+        View Certificate
+      </a>
+    </div>
+  </div>
+</div>
+
+
+  <!-- Contact Section -->
+  <div class="contact-section" id="contact-section">
+    <h2>Contact Me</h2>
+    <form id="contact-form" action="https://formspree.io/f/mbljwyva" method="POST">
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Your Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Your Message:</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+
+  <!-- Link to the external script file -->
+  <script src="script.js"></script>
+</body>
+</html>
